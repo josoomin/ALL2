@@ -8,6 +8,10 @@ namespace roomescape
     {
         public static UiManager I;
 
+        GameObject _backBtnObj;
+        GameObject _leftBtnObj;
+        GameObject _rightBtnObj;
+
         void Awake()
         {
             I = this;
@@ -15,7 +19,20 @@ namespace roomescape
 
         void Start()
         {
+            _backBtnObj = transform.Find("Back Button").gameObject;
+            _leftBtnObj = transform.Find("Left Button").gameObject;
+            _rightBtnObj = transform.Find("Right Button").gameObject;
+            
 
+            bool mainView = true;
+            OnChangeView(mainView);
+        }
+
+        public void OnChangeView(bool isMainView) //true: 메인 뷰 상태, false: 확대된 상태
+        {
+            _backBtnObj.SetActive(!isMainView);
+            _leftBtnObj.SetActive(isMainView);
+            _rightBtnObj.SetActive(isMainView);
         }
 
 

@@ -11,12 +11,25 @@ namespace roomescape
         void Start()
         {
             _sceneObjectsList = GetComponentsInChildren<SceneObject>();
-
         }
 
         void Update()
         {
 
+        }
+
+        public void OnClick_BackBtn()
+        {
+            //foreach(SceneObject obj in _sceneObjectsList)
+            //{
+            //    obj.OnClick_BackBtn();
+            //}
+
+            for (int i = 0; i < _sceneObjectsList.Length; i++)
+            {
+                SceneObject obj = _sceneObjectsList[i];
+                obj.OnClick_BackBtn();
+            }
         }
     }
 }
