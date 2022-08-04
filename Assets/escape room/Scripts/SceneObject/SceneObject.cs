@@ -43,13 +43,13 @@ public class SceneObject : MonoBehaviour
 
         //void UpdateInfoTextPos()
         //{
-        //    // Ã¥ÀåÀÇ ¿ùµåÁÂÇ¥
+        //    // Ã¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¥
         //    Vector3 objPos = transform.position;
 
-        //    // ¿ùµåÁÂÇ¥ -> ½ºÅ©¸° ÁÂÇ¥
+        //    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¥ -> ï¿½ï¿½Å©ï¿½ï¿½ ï¿½ï¿½Ç¥
         //    Vector3 screenPos = UnityEngine.Camera.main.WorldToScreenPoint(objPos + _infoTextOffset);
 
-        //    // UI Text(InfoText)ÀÇ À§Ä¡¸¦ ÀÌ ½ºÅ©¸° ÁÂÇ¥·Î µ¤¾î¾²±â
+        //    // UI Text(InfoText)ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½ï¿½î¾²ï¿½ï¿½
         //    _infoTextTrans.position = screenPos;
         //}
     }
