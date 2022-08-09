@@ -41,6 +41,8 @@ namespace roomescape
             Inventory.I.AddItem(_itemText);
 
             gameObject.SetActive(false);
+
+            _itemTextTrans.gameObject.SetActive(false);
         }
     }
 }

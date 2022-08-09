@@ -62,7 +62,10 @@ public class SceneObject : MonoBehaviour
                 //연출 카메라와 백버튼을 활성화 시킨다.
                 _showCamera.gameObject.SetActive(true);
 
-                // 뷰가 바뀌었음을 알린다.(연출뷰로 간다.
+                Collider col = GetComponent<Collider>();
+                col.enabled = false;
+
+                // 뷰가 바뀌었음을 알린다.(연출뷰로 간다.)
                 UiManager.I.OnChangeView(false);
             }
         }
@@ -76,6 +79,9 @@ public class SceneObject : MonoBehaviour
                 {
                     //연출 카메라 활성화
                     _showCamera.gameObject.SetActive(false);
+
+                    Collider col = GetComponent<Collider>();
+                    col.enabled = true;
 
                     //뷰가 바뀌었음을 알린다.(메인뷰로 돌아간다.)
                     UiManager.I.OnChangeView(true);
