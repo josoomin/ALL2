@@ -1,0 +1,442 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ko' Physical Memory: 16322 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/admin/Documents/GitHub/ALL2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53654
+Successfully changed project path to: C:/Users/admin/Documents/GitHub/ALL2
+C:/Users/admin/Documents/GitHub/ALL2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 80.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/admin/Documents/GitHub/ALL2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016677 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 74.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Domain Reload Profiling:
+	ReloadAssembly (650ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (420ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007508 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\admin\Documents\GitHub\ALL2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\admin\Documents\GitHub\ALL2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1120ms)
+		BeginReloadAssembly (244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (765ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.5 KB). Loaded Objects now: 3848.
+Memory consumption went from 118.3 MB to 118.2 MB.
+Total: 4.115200 ms (FindLiveObjects: 1.011600 ms CreateObjectMapping: 0.545100 ms MarkObjects: 2.457600 ms  DeleteObjects: 0.098200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 331808.377056 seconds.
+  path: Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/Cancel.png
+  artifactKey: Guid(0b1e83dc12feb0548b2a8a0d9de68084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/Cancel.png using Guid(0b1e83dc12feb0548b2a8a0d9de68084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1292364e5a7219e48760cdd949b102') in 0.164105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/Trophy.png
+  artifactKey: Guid(a3e594ff07f01d541a560f6b27872d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/Trophy.png using Guid(a3e594ff07f01d541a560f6b27872d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809df7f7163cff0034a85728fba9ce49') in 0.014240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/escape room/SketchUp/test Room/_Metal_Corrogated_Shiny_2.jpg
+  artifactKey: Guid(f7f56caa441c20d47b197cdb4d1318e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/SketchUp/test Room/_Metal_Corrogated_Shiny_2.jpg using Guid(f7f56caa441c20d47b197cdb4d1318e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ac23aeba67c29f8c283b5bd3b4ea2a') in 0.016668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow.png
+  artifactKey: Guid(c0d6451cbbb74344aac15ed39075fa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow.png using Guid(c0d6451cbbb74344aac15ed39075fa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336bcff4e499926acefb538cc12ad059') in 0.013275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/escape room/SketchUp/test Room/Wood_Floor_Light.jpg
+  artifactKey: Guid(7c685899df6431346b910bc4b7caeebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/SketchUp/test Room/Wood_Floor_Light.jpg using Guid(7c685899df6431346b910bc4b7caeebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d182dd98d01b27394213c764c92683a') in 0.017566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/escape room/Game GUI Vol1/PurpleRock/PNG/Twitter.png
+  artifactKey: Guid(520e8faccf3586e46a466235baaf0dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/PurpleRock/PNG/Twitter.png using Guid(520e8faccf3586e46a466235baaf0dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6adce93adb509f2499fd115aaf23748d') in 0.019354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/escape room/Game GUI Vol1/LazyDay/PNG/Plus.png
+  artifactKey: Guid(867e6c6f86b78c74cb02cd0281dd6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/LazyDay/PNG/Plus.png using Guid(867e6c6f86b78c74cb02cd0281dd6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941c623bda818d3dcf6c99bff1fa6b92') in 0.015797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/Forward.png
+  artifactKey: Guid(bf258233cecc75d4abb4ae29e696c23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/Forward.png using Guid(bf258233cecc75d4abb4ae29e696c23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eda0987005add56f477b17d91057d58') in 0.016071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/escape room/Game GUI Vol1/PurpleRock/PNG/Email.png
+  artifactKey: Guid(98985c757b0b8914cbe1a45bf4ed17f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/PurpleRock/PNG/Email.png using Guid(98985c757b0b8914cbe1a45bf4ed17f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2940c2c2fec1da8870ceb461653ecee3') in 0.014552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/RightArrow2.png
+  artifactKey: Guid(0b668bd6fe6f34447b9a4f5f3adee974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/RightArrow2.png using Guid(0b668bd6fe6f34447b9a4f5f3adee974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae88526ce985dfc5ff6a480f4970dea') in 0.014049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/escape room/Game GUI Vol1/LazyDay/PNG/GooglePlus.png
+  artifactKey: Guid(8dfafc7da85e620468db827d376c6e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/LazyDay/PNG/GooglePlus.png using Guid(8dfafc7da85e620468db827d376c6e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eef890827234c2a356b3db17847e4ae') in 0.021674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/escape room/Game GUI Vol1/LazyDay/PNG/RightArrow2.png
+  artifactKey: Guid(a40cd8b55b00b2c4a9b74a11c50a87df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/LazyDay/PNG/RightArrow2.png using Guid(a40cd8b55b00b2c4a9b74a11c50a87df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b0a4d8301c84b6a62de54ceb74bd56') in 0.016118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/SoundON.png
+  artifactKey: Guid(8b2c499363edf854cbdcaca22a262271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/SoundON.png using Guid(8b2c499363edf854cbdcaca22a262271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8813e70fd89b9382f35cd2fea3ca135a') in 0.013990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/escape room/SketchUp/test Room/_9.jpg
+  artifactKey: Guid(56884f73af7a5304bb2a62ec0f214f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/SketchUp/test Room/_9.jpg using Guid(56884f73af7a5304bb2a62ec0f214f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3175e62249f0565c9db8e380fd77b734') in 0.020614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/Cancel.png
+  artifactKey: Guid(55c0748178feb0e4cbd1f5ffb454f889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/Cancel.png using Guid(55c0748178feb0e4cbd1f5ffb454f889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b1fbd0fbe351f8c65d11b48e9dc9c6') in 0.021047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/escape room/Game GUI Vol1/PurpleRock/PNG/LeftArrow2.png
+  artifactKey: Guid(f2e21438e95f1874d8919b2b9c76fd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/PurpleRock/PNG/LeftArrow2.png using Guid(f2e21438e95f1874d8919b2b9c76fd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61accc06794eab6227d9ccef374e61d6') in 0.018084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/Yes.png
+  artifactKey: Guid(20e945dec5769e547872784f41d1dec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/Yes.png using Guid(20e945dec5769e547872784f41d1dec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63161e17d82b8a9405b34e7e4c3a73c5') in 0.017389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/Minus.png
+  artifactKey: Guid(d0413468659e9314eb6f7db69249cfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/Minus.png using Guid(d0413468659e9314eb6f7db69249cfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e73ec025bea9b53fa39e008a27a7564') in 0.015204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/LeftArrow.png
+  artifactKey: Guid(f7b22e46777056d45aab0ace586f0dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/LeftArrow.png using Guid(f7b22e46777056d45aab0ace586f0dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ce67ebba0fe883611bf5d5bc0568ee') in 0.016503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/QuestionMark.png
+  artifactKey: Guid(76eb98e9359ec7a4baa4d03a339f5474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/QuestionMark.png using Guid(76eb98e9359ec7a4baa4d03a339f5474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32debe7925b1f0a871777062d134dee8') in 0.015114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/Home.png
+  artifactKey: Guid(50c1fbf12bd78f3429f7f0ed2a8b6115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/Home.png using Guid(50c1fbf12bd78f3429f7f0ed2a8b6115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4478f1565e687243fc53a69c69d2d0a0') in 0.018838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/Backward.png
+  artifactKey: Guid(a2ec0a562461e314a8c01efb6bfa424e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/Backward.png using Guid(a2ec0a562461e314a8c01efb6bfa424e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926a0413eb232e1068f4eb2befb99659') in 0.015588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/Email.png
+  artifactKey: Guid(14bd17ba79db1654fbc60a2c942d6c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/Email.png using Guid(14bd17ba79db1654fbc60a2c942d6c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1426a42497594dc942859f28e9aef2') in 0.015929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/Setting.png
+  artifactKey: Guid(ba7a0dc6a03c8e04ca661bdf8ee88ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/Setting.png using Guid(ba7a0dc6a03c8e04ca661bdf8ee88ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9dfc68d7b1c6e5d71d522970ff6202') in 0.020924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/escape room/Game GUI Vol1/PurpleRock/PNG/QuestionMark.png
+  artifactKey: Guid(07f3f84b6785ce44e9f43643ba07ac5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/PurpleRock/PNG/QuestionMark.png using Guid(07f3f84b6785ce44e9f43643ba07ac5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab448b40409c4303fa97d5ece19d56c') in 0.016615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/escape room/Game GUI Vol1/LazyDay/PNG/Twitter.png
+  artifactKey: Guid(48e773ac684bd61469a7db7f029c36fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/LazyDay/PNG/Twitter.png using Guid(48e773ac684bd61469a7db7f029c36fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e247d6762bf123ea05a06196312ecf7') in 0.016075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/escape room/Game GUI Vol1/PurpleRock/PNG/Play.png
+  artifactKey: Guid(6d36609f84092b04c9fef80c2f473ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/PurpleRock/PNG/Play.png using Guid(6d36609f84092b04c9fef80c2f473ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d03e89370a570d614b5b12d5ae407b4') in 0.015556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/escape room/SketchUp/test Room/Wood_Bamboo_Medium.jpg
+  artifactKey: Guid(ae02620d76ff9d14db6184e6ca290482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/SketchUp/test Room/Wood_Bamboo_Medium.jpg using Guid(ae02620d76ff9d14db6184e6ca290482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f0d67711b7f44e6d83daec7a52a3f1') in 0.014923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow2.png
+  artifactKey: Guid(a1dd4c328d9af7647be6b216b3315c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow2.png using Guid(a1dd4c328d9af7647be6b216b3315c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da723646c4712db377ebee8ce4150745') in 0.012982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/escape room/Game GUI Vol1/LazyDay/PNG/Info.png
+  artifactKey: Guid(61743cb8e1a0c9f4fa8650945b8d3746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/LazyDay/PNG/Info.png using Guid(61743cb8e1a0c9f4fa8650945b8d3746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db6181eec8b0855d37bb6051d0d69eb') in 0.014496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/Menu.png
+  artifactKey: Guid(b0c76daa8f045ea41b029bfc2be55d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/Menu.png using Guid(b0c76daa8f045ea41b029bfc2be55d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016372f8a971cd29fb48ef69cf589703') in 0.014958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/escape room/Game GUI Vol1/LazyDay/PNG/Dollar.png
+  artifactKey: Guid(d049af27b86205a4286bf4733cfc395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/LazyDay/PNG/Dollar.png using Guid(d049af27b86205a4286bf4733cfc395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d90a632cda8c69b87242e52659ddf9') in 0.015249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/DownArrow.png
+  artifactKey: Guid(9334e6fd7c9770c45bbcdaaad3d05c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/DownArrow.png using Guid(9334e6fd7c9770c45bbcdaaad3d05c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c91e7a69c884399a86238cc8e952660') in 0.012022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/Dollar.png
+  artifactKey: Guid(1acc4ee37f927944c949f8acbf396e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/Dollar.png using Guid(1acc4ee37f927944c949f8acbf396e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344398f8ac4d4febb8f11310f14e4a90') in 0.016149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/SoundOFF.png
+  artifactKey: Guid(d86351a5088a159428c979bf9b42c589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/SoundOFF.png using Guid(d86351a5088a159428c979bf9b42c589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2811dac29863b9b2e882b60c320a3d6c') in 0.012051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/DownArrow.png
+  artifactKey: Guid(008d2b2f59c319b42a20dc9a93082a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/DownArrow.png using Guid(008d2b2f59c319b42a20dc9a93082a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83c8ac33fb5821604a9f7c347ebb2a4') in 0.014256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/Yes.png
+  artifactKey: Guid(c0a4c1510ac37084d9748cefd898809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/Yes.png using Guid(c0a4c1510ac37084d9748cefd898809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750cd8d2ae43987523ae82534c9c045f') in 0.012642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/Settings.png
+  artifactKey: Guid(eafb548e1081a2b48bcba05ddb2fe3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/Settings.png using Guid(eafb548e1081a2b48bcba05ddb2fe3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e704cb7d9b6ccb71f904f7bacae7a9') in 0.013364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/Restart.png
+  artifactKey: Guid(864bab8807c741d45b41b3683e13d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/Restart.png using Guid(864bab8807c741d45b41b3683e13d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408b68124c7856bc448916c959065fe5') in 0.012821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/Info.png
+  artifactKey: Guid(e5cad6559c13d5c429678af775b1d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/Info.png using Guid(e5cad6559c13d5c429678af775b1d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d18f8d47e583cfa27df96b08c82905') in 0.013299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/escape room/Game GUI Vol1/PurpleRock/PNG/Restart.png
+  artifactKey: Guid(27a1709b21b383a4789cdf00d6715f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/PurpleRock/PNG/Restart.png using Guid(27a1709b21b383a4789cdf00d6715f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b779ae28ce6a2478b69758a5a1e3308') in 0.018857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/escape room/Game GUI Vol1/PurpleRock/PNG/Backward.png
+  artifactKey: Guid(5b1bd0b3020816b49a3c96c5c28c67a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/PurpleRock/PNG/Backward.png using Guid(5b1bd0b3020816b49a3c96c5c28c67a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46bd9c037dc50a06c3003a40477867f') in 0.014406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.130765 seconds.
+  path: Assets/escape room/Game GUI Vol1/LazyDay/PNG/Pause.png
+  artifactKey: Guid(9c28e53b0cbe3e4469de0fae99fb7cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/LazyDay/PNG/Pause.png using Guid(9c28e53b0cbe3e4469de0fae99fb7cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad6f9a23f63e3934329b8ef993cd876') in 0.014857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018548 seconds.
+  path: Assets/escape room/Game GUI Vol1/PurpleRock/PNG/Shop.png
+  artifactKey: Guid(af8159a7772adf740bb360ea0defab56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/PurpleRock/PNG/Shop.png using Guid(af8159a7772adf740bb360ea0defab56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2cbaf6ec61c49d78f240b2c1b35030') in 0.019931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/UpArrow.png
+  artifactKey: Guid(6d9630691876eb94686a195f0810cfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/WoodenBlocks/PNG/UpArrow.png using Guid(6d9630691876eb94686a195f0810cfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9538a2aa97c116289bdbe2df0b8516c8') in 0.011905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.715434 seconds.
+  path: Assets/escape room/Game GUI Vol1/Playful/PNG/RightArrow.png
+  artifactKey: Guid(83a086670db487c4aa83edfb3576db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/escape room/Game GUI Vol1/Playful/PNG/RightArrow.png using Guid(83a086670db487c4aa83edfb3576db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e70c179fe2d9998005ab644c05b1cfa') in 0.015952 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

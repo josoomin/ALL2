@@ -37,7 +37,10 @@ namespace roomescape
 
         void OnMouseDown()
         {
-            
+            //인벤토리에 접근해서, 데이터(아이템)를 넣어주기
+            Inventory.I.AddItem(_itemText);
+
+            gameObject.SetActive(false);
         }
     }
 }
