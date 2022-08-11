@@ -12,6 +12,8 @@ namespace roomescape
         GameObject _leftBtnObj;
         GameObject _rightBtnObj;
 
+        public UI_Inventory _ui_iven;
+
         void Awake()
         {
             I = this;
@@ -22,7 +24,8 @@ namespace roomescape
             _backBtnObj = transform.Find("Back Button").gameObject;
             _leftBtnObj = transform.Find("Left Button").gameObject;
             _rightBtnObj = transform.Find("Right Button").gameObject;
-            
+
+            _ui_iven = transform.Find("UI_Inventory").GetComponent<UI_Inventory>();
 
             bool mainView = true;
             OnChangeView(mainView);
