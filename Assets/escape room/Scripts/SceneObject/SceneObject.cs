@@ -16,7 +16,7 @@ public class SceneObject : MonoBehaviour
         {
             GameObject canvas = UiManager.I.gameObject;
 
-            _infoTextTrans = canvas.transform.Find("infoText").GetComponent<RectTransform>();
+            //_infoTextTrans = canvas.transform.Find("infoText").GetComponent<RectTransform>();
 
             _infoTextTrans.gameObject.SetActive(false);
         }

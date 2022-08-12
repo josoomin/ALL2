@@ -29,15 +29,20 @@ namespace roomescape
             //UI_invenitem를 생성해준다.
             for(int i = 0; i < Inventory.I._itemList.Count; i++)
             {
-                Add();
+                string itemName = Inventory.I._itemList[i];
+                 
+                Add(itemName);
             }
         }
 
-        public void Add()
+        public void Add(string itemName)
         {
             GameObject cloneObj = Instantiate(_itemTemplate);
             cloneObj.transform.parent = _itemTemplate.transform.parent;
             cloneObj.SetActive(true);
+
+            UI_InvenItem invenitem = cloneObj.GetComponent<UI_InvenItem>();
+            invenitem.SetInfo(itemName);
         }
 
         void Update()

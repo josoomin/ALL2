@@ -30,7 +30,7 @@ namespace roomescape
                 _itemList.Add(itemName);
 
                 //UI_Inventory에 알려서 UI에도 추가하기
-                UiManager.I._ui_iven.Add();
+                UiManager.I._ui_iven.Add(itemName);
             }
         }
     }
