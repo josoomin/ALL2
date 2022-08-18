@@ -12,7 +12,7 @@ public class SceneObject : MonoBehaviour
         public Vector3 _infoTextOffset;
         public string _infoText = "";
 
-        void Start()
+        protected virtual void Start()
         {
             GameObject canvas = UiManager.I.gameObject;
 
@@ -54,7 +54,7 @@ public class SceneObject : MonoBehaviour
         //    _infoTextTrans.position = screenPos;
         //}
 
-        void OnMouseDown()
+        protected virtual void OnMouseDown()
         {
             //마우스 클릭시, 만일 연출카메라가 있다면, 해당 카메라 켜주기
             if(_showCamera != null)

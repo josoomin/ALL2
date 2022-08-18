@@ -353,6 +353,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/escape room/Scripts/CameraRotator.cs"
+"Assets/escape room/Scripts/SceneItem/Desk.cs"
+"Assets/escape room/Scripts/SceneItem/Door.cs"
 "Assets/escape room/Scripts/SceneItem/Inventory.cs"
 "Assets/escape room/Scripts/SceneItem/SceneItem.cs"
 "Assets/escape room/Scripts/SceneObject/SceneObject.cs"
