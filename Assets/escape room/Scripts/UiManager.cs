@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 namespace roomescape
 {
@@ -14,6 +16,8 @@ namespace roomescape
 
         public UI_Inventory _ui_iven;
 
+        GraphicRaycaster _raycaster;
+
         void Awake()
         {
             I = this;
@@ -21,6 +25,8 @@ namespace roomescape
 
         void Start()
         {
+            _raycaster = GetComponent<GraphicRaycaster>();
+
             _backBtnObj = transform.Find("Back Button").gameObject;
             _leftBtnObj = transform.Find("Left Button").gameObject;
             _rightBtnObj = transform.Find("Right Button").gameObject;
@@ -30,8 +36,31 @@ namespace roomescape
             bool mainView = true;
             OnChangeView(mainView);
         }
+        
+        public bool IsUITouched() // UIìš”ì†Œê°€ í„°ì¹˜ë˜ì—ˆëŠ”ì§€ ì•Œë ¤ì£¼ëŠ” í•¨ìˆ˜
+        {
+            PointerEventData data = new PointerEventData(EventSystem.current);
+            data.position = Input.mousePosition;
 
-        public void OnChangeView(bool isMainView) //true: ¸ŞÀÎ ºä »óÅÂ, false: È®´ëµÈ »óÅÂ
+            List<RaycastResult> results = new List<RaycastResult>();
+
+            bool uiTouched = false;
+            _raycaster.Raycast(data, results);
+            foreach (RaycastResult r in results)
+            {
+
+                Debug.Log("ui ê°ì²´: " + r.gameObject.name);
+
+                uiTouched = true;
+
+            }
+
+            return uiTouched;
+        }
+
+       
+
+        public void OnChangeView(bool isMainView) //true: ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, false: È®ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         {
             _backBtnObj.SetActive(!isMainView);
             _leftBtnObj.SetActive(isMainView);
@@ -41,7 +70,7 @@ namespace roomescape
 
         void Update()
         {
-
+            IsUITouched();
         }
     }
 }

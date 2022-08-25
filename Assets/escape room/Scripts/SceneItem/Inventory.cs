@@ -13,7 +13,7 @@ namespace roomescape
 
     public class Inventory : MonoBehaviour
     {
-        public static Inventory I; //½Ì±ÛÅæ ÀÎ½ºÅÏ½º
+        public static Inventory I; //ï¿½Ì±ï¿½ï¿½ï¿½ ï¿½Î½ï¿½ï¿½Ï½ï¿½
 
         //public List<SceneIteminfo> _itemList;
         public List<string> _itemList;
@@ -29,7 +29,7 @@ namespace roomescape
             {
                 _itemList.Add(itemName);
 
-                //UI_Inventory¿¡ ¾Ë·Á¼­ UI¿¡µµ Ãß°¡ÇÏ±â
+                //UI_Inventoryï¿½ï¿½ ï¿½Ë·ï¿½ï¿½ï¿½ UIï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½Ï±ï¿½
                 UiManager.I._ui_iven.Add(itemName);
             }
         }

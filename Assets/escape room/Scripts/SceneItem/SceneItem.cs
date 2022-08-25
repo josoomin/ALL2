@@ -37,7 +37,7 @@ namespace roomescape
 
         void OnMouseDown()
         {
-            //юн╨╔еД╦╝©║ а╒╠ыгь╪╜, ╣╔юлем(╬фюлеш)╦╕ Ёж╬Наж╠Б
+            //О©╫н╨О©╫О©╫Д╦╝О©╫О©╫ О©╫О©╫О©╫О©╫О©╫ь╪О©╫, О©╫О©╫О©╫О©╫О©╫О©╫(О©╫О©╫О©╫О©╫О©╫О©╫)О©╫О©╫ О©╫ж╬О©╫О©╫ж╠О©╫
             Inventory.I.AddItem(_itemText);
 
             gameObject.SetActive(false);

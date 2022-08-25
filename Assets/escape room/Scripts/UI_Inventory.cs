@@ -4,8 +4,8 @@ using UnityEngine;
 
 namespace roomescape
 {
-    // Inventory °´Ã¼ÀÇ ¾ÆÀÌÅÛ ¸®½ºÆ®¸¦ È®ÀÎÇØ¼­
-    // ±×´ë·Î ÀÎº¥Åä¸® UIÈ­¸é¿¡ »Ñ·ÁÁØ´Ù.
+    // Inventory ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ø¼ï¿½
+    // ï¿½×´ï¿½ï¿½ ï¿½Îºï¿½ï¿½ä¸® UIÈ­ï¿½é¿¡ ï¿½Ñ·ï¿½ï¿½Ø´ï¿½.
 
     public class UI_Inventory : MonoBehaviour
     {
@@ -21,12 +21,12 @@ namespace roomescape
 
             UI_InvenItem[] array = GetComponentsInChildren<UI_InvenItem>();
 
-            //List¿¡ ¿©·¯°³(¹è¿­)¸¦ Áý¾î³ÖÀ» ¶§´Â AddRange ÇÔ¼ö ¾´´Ù
-            // (ÇÑ °³¸¦ Áý¾î³ÖÀ» ¶§´Â AddÇÔ¼ö)
+            //Listï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½è¿­)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ AddRange ï¿½Ô¼ï¿½ ï¿½ï¿½ï¿½ï¿½
+            // (ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Addï¿½Ô¼ï¿½)
             _itemList.AddRange(array);
 
-            //Inventory °´Ã¼ÀÇ _itemList¸¦ È®ÀÎÇØ¼­, ±× °¹¼ö´ë·Î
-            //UI_invenitem¸¦ »ý¼ºÇØÁØ´Ù.
+            //Inventory ï¿½ï¿½Ã¼ï¿½ï¿½ _itemListï¿½ï¿½ È®ï¿½ï¿½ï¿½Ø¼ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+            //UI_invenitemï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø´ï¿½.
             for(int i = 0; i < Inventory.I._itemList.Count; i++)
             {
                 string itemName = Inventory.I._itemList[i];

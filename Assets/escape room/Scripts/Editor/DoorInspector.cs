@@ -16,17 +16,17 @@ namespace roomescape
             if (_door == null)
                 _door = target as Door;
 
-            if(GUILayout.Button("¹® ¿­±â"))
+            if(GUILayout.Button("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½"))
             {
                 _door.Open();
             }
 
-            if (GUILayout.Button("¹® ´Ý±â"))
+            if (GUILayout.Button("ï¿½ï¿½ ï¿½Ý±ï¿½"))
             {
                 _door.Close();
             }
 
-            base.OnInspectorGUI(); //¿ø·¡ DoorÀÇ º¯¼öµéÀÌ ÀÎ½ºÆåÅÍ¿¡ º¸¿©Áü
+            base.OnInspectorGUI(); //ï¿½ï¿½ï¿½ï¿½ Doorï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î½ï¿½ï¿½ï¿½ï¿½Í¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         }
     }
 }

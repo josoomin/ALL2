@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/escape room.unity
+- path: Assets/Scenes/tiny tower.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
